@@ -1,3 +1,4 @@
+/*
 Requirements:
 
   1. Should have a place to store to dos
@@ -5,18 +6,22 @@ Requirements:
   3. Should have a way to add new todos
   4. Should have a way to change exisiting todos
   5. Should have a way to delete todos
-  
+*/  
   
   //Way to store todos
-  
+   var todos = ["item 1", "item 2", "item 3", "item 4"]
   
   //Way to Display todos
-  
+    console.log('My Todos:', todos);
   
   //Way to add new todos
-  
+    var newtodo;
+      todos.push('newTodo');
   
   //Way to change exisiting todos
-  
+    todos[var] = "new value";
   
   //Way to delete todos
+  //Take selection and minus one to accounts for array starting at zero
+  //start at that position and delete one object in the array
+      todos.splice((var - 1), 1);
